@@ -43,6 +43,7 @@
 
 - 홈페이지: `https://kwakssi38.github.io/desktop-calendar-site/`
 - 개인정보처리방침: `https://kwakssi38.github.io/desktop-calendar-site/privacy.html`
+- 서비스 약관(선택): `https://kwakssi38.github.io/desktop-calendar-site/terms.html`
 - 승인된 도메인: `kwakssi38.github.io`
 
 게시한 뒤 앱에서 로그아웃하고 다시 로그인하면, 그 뒤로는 만료되지 않습니다.
@@ -105,7 +106,7 @@
 - 사용하는 권한: `calendar.events`(일정 보기·수정), `calendar.calendarlist.readonly`(캘린더 목록)
 - 연결 해제: 트레이 메뉴 → **로그아웃**, 또는 [Google 계정 → 서드파티 액세스](https://myaccount.google.com/permissions)에서 권한 삭제.
 
-자세한 내용은 [개인정보처리방침](https://kwakssi38.github.io/desktop-calendar-site/privacy.html)을 참고하세요.
+자세한 내용은 [개인정보처리방침](https://kwakssi38.github.io/desktop-calendar-site/privacy.html)과 [서비스 약관](https://kwakssi38.github.io/desktop-calendar-site/terms.html)을 참고하세요.
 
 ## 알려진 한계
 
