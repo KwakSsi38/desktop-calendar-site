@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 - Desktop Calendar</title>
+<style>
+  :root { --bg: #fff; --fg: #202124; --muted: #5f6368; --accent: #1a73e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #202124; --fg: #e8eaed; --muted: #9aa0a6; --accent: #8ab4f8; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 "Malgun Gothic", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+  p.sub { color: var(--muted); }
+  a { color: var(--accent); } code { word-break: break-all; }
+</style>
+</head>
+<body>
+<main>
+  <h1>개인정보처리방침</h1>
+  <p class="sub">Desktop Calendar · 시행일 2026년 10월 22일</p>
+
+  <h2>1. 수집하는 정보</h2>
+  <p>Desktop Calendar(이하 "앱")는 개발자가 운영하는 서버가 없으며, 사용자의 개인정보를 수집하거나 외부로 전송하지 않습니다.</p>
+
+  <h2>2. Google 사용자 데이터의 사용</h2>
+  <p>앱은 사용자가 로그인하면 아래 권한으로 Google 캘린더 API에 직접 접근합니다.</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/calendar.events</code>: 일정을 보여주고, 사용자가 요청할 때 일정을 추가, 수정, 삭제합니다.</li>
+    <li><code>https://www.googleapis.com/auth/calendar.calendarlist.readonly</code>: 캘린더 목록과 색을 표시합니다.</li>
+  </ul>
+  <p>이 데이터는 사용자의 화면에 캘린더를 표시하고 알림을 띄우는 데에만 쓰입니다. 광고, 분석, AI 모델 학습에 쓰지 않으며 제3자에게 판매하거나 공유하지 않습니다.
+  앱의 Google 사용자 데이터 사용은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>(제한적 사용 요건 포함)을 따릅니다.</p>
+
+  <h2>3. 사용자 PC에 저장하는 정보</h2>
+  <ul>
+    <li>로그인 토큰: 윈도우 데이터 보호(DPAPI)로 암호화해 <code>%APPDATA%\desktop-calendar\</code>에 저장합니다.</li>
+    <li>오프라인 표시용 일정 사본과 화면 설정: 같은 PC의 앱 데이터 폴더에만 저장합니다.</li>
+  </ul>
+
+  <h2>4. 데이터 삭제와 접근 철회</h2>
+  <ul>
+    <li>앱의 트레이 메뉴에서 <b>로그아웃</b>을 누르면 저장된 토큰을 삭제합니다.</li>
+    <li><a href="https://myaccount.google.com/permissions">Google 계정 → 보안 → 서드파티 액세스</a>에서 언제든 앱의 접근 권한을 해제할 수 있습니다.</li>
+    <li>앱을 제거한 뒤 <code>%APPDATA%\desktop-calendar\</code> 폴더를 지우면 PC에 남은 데이터가 모두 삭제됩니다.</li>
+  </ul>
+
+  <h2>5. 변경과 문의</h2>
+  <p>이 방침이 바뀌면 이 페이지에 게시합니다. 문의는 <a href="https://github.com/KwakSsi38/desktop-calendar-site/issues">GitHub Issues</a>에 남겨 주세요.</p>
+
+  <p><a href="./">← 앱 소개</a></p>
+</main>
+</body>
+</html>
